@@ -20,5 +20,8 @@ jobs:
     - name: npm install, build, and test
       run: |
         ls
+        npm i
+        cd client
+        npm i
       env:
         CI: true
