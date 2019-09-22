@@ -23,6 +23,5 @@ jobs:
         cd client
         ls
         npm install
-        npm run serve
       env:
         CI: true
